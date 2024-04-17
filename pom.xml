@@ -73,6 +73,11 @@ THE SOFTWARE.
   </issueManagement>
 
   <properties>
+    <sonar.organization>brinzaalina</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
+
+  <properties>
     <revision>2.455</revision>
     <changelist>-SNAPSHOT</changelist>
 
