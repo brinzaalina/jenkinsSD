@@ -73,11 +73,6 @@ THE SOFTWARE.
   </issueManagement>
 
   <properties>
-    <sonar.organization>brinzaalina</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  </properties>
-
-  <properties>
     <revision>2.455</revision>
     <changelist>-SNAPSHOT</changelist>
 
@@ -104,6 +99,9 @@ THE SOFTWARE.
     <spotless.check.skip>false</spotless.check.skip>
     <!-- Make sure to keep the jetty-maven-plugin version in war/pom.xml in sync with the Jetty release in Winstone: -->
     <winstone.version>6.18</winstone.version>
+
+    <sonar.organization>brinzaalina</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
   <!--
